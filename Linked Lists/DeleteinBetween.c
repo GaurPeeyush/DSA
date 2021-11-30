@@ -42,7 +42,7 @@ int main(){
     
     printf("Before\n");
     traversal(head);
-    head = delbetween(head, 2);
+    head = delbetween(head, 1);
     printf("After\n");
     traversal(head);
     return 0;
